@@ -1,7 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,11 @@
     "url": "https://github.com/belaidaymen444/backendpractice/issues"
   },
   "homepage": "https://github.com/belaidaymen444/backendpractice#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
 }
