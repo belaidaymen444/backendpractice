@@ -6,24 +6,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
-  <body>
-    <form action="">
-      <lable>
-        Nom Prénom
-        <input type="text" />
+  <body class="flex  justify-center items-center h-screen">
+    <form action="info" class="flex flex-col justify-between p-5 items-center bg-blue-800 h-4/6 w-4/12">
+    <div class="flex flex-col justify-between gap-3 w-full h-full">
+      <lable class="flex flex-col justify-center">
+        <p>Nom Prénom</p>
+        <input type="text" name="Nom Prénom" class="border-2 rounded-md border-black outline-none" />
       </lable>
-      <lable>
-        Numéro d'Identité Nationale
-        <input type="text" />
+      <lable class="flex flex-col justify-center">
+        <p>Numéro d'Identité Nationale</p>
+        <input type="text" name="Numéro d'Identité Nationale"   class="border-2 rounded-md border-black outline-none" />
       </lable>
-      <lable>
-        Numéro de Téléphone
-        <input type="text" />
+      <lable class="flex flex-col justify-center">
+       <p> Numéro de Téléphone</p>
+        <input type="text" name="Numéro de Téléphone" class="border-2 rounded-md border-black outline-none" />
       </lable>
-      <lable></lable>
-      Email
-        <input type="text" />
+      <lable  class="flex flex-col justify-center">
+      <p>Email</p>
+        <input type="text" name="Email" class="border-2 rounded-md border-black outline-none" />
       </lable>
+      <input type="submit" value="Valider" class="w-full bg-green-600">
+    </div>
     </form>
   </body>
+  
 </html>
